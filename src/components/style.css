@@ -33,12 +33,6 @@ p {
   color: 0.465b52;
   margin: 15px 0 20px 0;
 }
-/* .section-p1 {
-  padding: 40px 80px;
-} */
-/* .section-m1 {
-  margin: 40px 0;
-} */
 button.normal {
   border-radius: 10px;
   cursor: pointer;
@@ -67,6 +61,7 @@ button.white {
 /* Header Start */
 
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,11 +76,34 @@ button.white {
   display: none;
 }
 .mobile {
-  display: none;
-  width: 300px;
-  height: 100vh;
-  background: rgb(107, 175, 175);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  width: 0%;
+  height: 70vh;
   transition: 0.3s linear;
+}
+.mobileRight {
+  background: #000;
+  width: 50%;
+  opacity: 0.3;
+}
+.mobileLeft {
+  background: rgb(107, 175, 175);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mobileLeft .m-nav {
+  display: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
 }
 .navbar {
   display: flex;
@@ -97,20 +115,20 @@ button.white {
   list-style: none;
   padding: 0 20px;
 }
-.navbar li a {
+.navbar li .active,
+.nav {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   color: #1a1a1a;
   transition: all 0.3s linear;
 }
-.navbar li a:hover,
-.navbar li a.active {
+.navbar li .nav:hover,
+.navbar li .active {
   color: #088178;
 }
 
-.navbar li a.active::after,
-.navbar li a:hover::after {
+.navbar li .active::after {
   content: "";
   width: 30%;
   height: 2px;
@@ -477,10 +495,11 @@ footer img {
 
 .pagination {
   padding: 40px 80px;
-  text-align: center;
+  text-align: center ;
 }
 
 .pagination a {
+  margin: 10px;
   text-decoration: none;
   background-color: #088178;
   padding: 15px 20px;
@@ -894,8 +913,28 @@ footer img {
     display: flex;
   }
   .bar {
+    cursor: pointer;
     padding: 10px;
     display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: all 0.3s linear;
+  }
+  .navbar li .active,
+  .bar:hover {
+    color: #088178;
+  }
+
+  .bar::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
   }
   .hero {
     height: 70vh;
@@ -1043,5 +1082,5 @@ footer img {
   }
   .coupon {
     padding: 5px 5px;
-}
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cart = () => {
+const Cartb = () => {
   return (
     <section className="cart">
       <table>
@@ -73,4 +73,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default Cartb;

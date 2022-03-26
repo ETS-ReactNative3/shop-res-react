@@ -12,8 +12,8 @@ import Cart from "./pages/Cart";
 const App = () => {
   return (
     <div>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />

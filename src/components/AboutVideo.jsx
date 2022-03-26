@@ -1,10 +1,11 @@
 import React from "react";
+import mp4 from '../imges/about/1.mp4'
 
 const AboutVideo = () => {
   return (
     <section className="about-video">
       <div className="WrapperVideo">
-        <video loop autoplay controls src="./imges/about/1.mp4"></video>
+        <video loop autoplay controls src={mp4}></video>
       </div>
     </section>
   );

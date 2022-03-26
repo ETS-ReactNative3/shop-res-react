@@ -1,11 +1,13 @@
 import React from "react";
+import b3 from '../imges/blog/b3.jpg'
+import b6 from '../imges/blog/b6.jpg'
 
 const Blogs = () => {
   return (
     <section className="blogs">
       <div className="blog-box">
         <div className="imgWrapper">
-          <img src="./imges/blog/b3.jpg" alt="" />
+          <img src={b3} alt="" />
         </div>
         <div className="blog-deatels">
           <h3>Odatdagi kiyinishingizni o'zgartiring</h3>
@@ -21,7 +23,7 @@ const Blogs = () => {
       </div>
       <div className="blog-box">
         <div className="imgWrapper">
-          <img src="./imges/blog/b6.jpg" alt="" />
+          <img src={b6} alt="" />
         </div>
         <div className="blog-deatels">
           <h3>Odatdagi kiyinishingizni o'zgartiring</h3>
@@ -37,7 +39,7 @@ const Blogs = () => {
       </div>
       <div className="blog-box">
         <div className="imgWrapper">
-          <img src="./imges/blog/b3.jpg" alt="" />
+          <img src={b3} alt="" />
         </div>
         <div className="blog-deatels">
           <h3>Odatdagi kiyinishingizni o'zgartiring</h3>

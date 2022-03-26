@@ -1,10 +1,11 @@
 import React from "react";
+import a6 from '../imges/about/a6.jpg'
 
-const About = () => {
+const Aboutb = () => {
   return (
     <section className="about">
       <div className="aboutimgWrapper">
-        <img src="./imges/about/a6.jpg" alt="" />
+        <img src={a6} alt="" />
       </div>
       <div className="aboutdeatels">
         <h2>Who we are?</h2>
@@ -32,4 +33,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutb;

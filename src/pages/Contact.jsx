@@ -2,14 +2,14 @@ import React from "react";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
 import AboutHero from "../components/AboutHero";
-import Contact from "../components/Contact";
+import Contactb from "../components/Contactb";
 import ContactForm from "../components/Form";
 
 const Contact = () => {
   return (
     <div>
       <AboutHero />
-      <Contact />
+      <Contactb />
       <ContactForm />
       <Footer />
       <Copyright />

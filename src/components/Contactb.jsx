@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Contactb = () => {
   return (
     <section className="contact">
       <div className="contact-deatels">
@@ -43,4 +43,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contactb;
