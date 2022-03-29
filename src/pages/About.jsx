@@ -6,12 +6,14 @@ import Copyright from "../components/Copyright";
 import AboutHero from "../components/AboutHero";
 import Aboutb from "../components/Aboutb";
 import AboutVideo from "../components/AboutVideo";
+import DemoCarousel from "../components/Carousel";
 
 const About = () => {
   return (
     <div>
       <AboutHero />
       <Aboutb />
+      <DemoCarousel/>
       <AboutVideo />
       <Feature />
       <Newsletter />

@@ -1,22 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import img1 from "../imges/products/f1.jpg";
+import img2 from "../imges/products/f2.jpg";
+import img3 from "../imges/products/f3.jpg";
+import img4 from "../imges/products/f4.jpg";
 
 const SingleProduct = () => {
+  const [data, setData] = useState(img1);
   return (
     <section className="single-product">
       <div className="single-product-image-wrapper">
-        <img src="./imges/products/f1.jpg" alt="" />
+        <img src={data} alt="" />
         <div className="single-product-image-group">
           <div className="small-image-wrapper">
-            <img src="./imges/products/f1.jpg" alt="" />
+            <img src={img1} alt="" onClick={() => setData(img1)} />
           </div>
           <div className="small-image-wrapper">
-            <img src="./imges/products/f2.jpg" alt="" />
+            <img src={img2} alt="" onClick={() => setData(img2)} />
           </div>
           <div className="small-image-wrapper">
-            <img src="./imges/products/f3.jpg" alt="" />
+            <img src={img3} alt="" onClick={() => setData(img3)} />
           </div>
           <div className="small-image-wrapper">
-            <img src="./imges/products/f4.jpg" alt="" />
+            <img src={img4} alt="" onClick={() => setData(img4)} />
           </div>
         </div>
       </div>
@@ -32,7 +37,7 @@ const SingleProduct = () => {
           <option value="">kichik</option>
         </select>
         <div className="inputBtn">
-          <input type="number" />
+          <input type="number" value={1} />
           <button className="normal">kartaga qo'shish</button>
         </div>
         <h3>Maxsulot mal'umotlari</h3>

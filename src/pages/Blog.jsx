@@ -5,12 +5,14 @@ import Pagination from "../components/Pagination";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
+// import DemoCarousel from "../components/Carousel";
 
 const Blog = () => {
   return (
     <div>
       <BlogHero />
       <Blogs />
+      {/* <DemoCarousel /> */}
       <Pagination />
       <Newsletter />
       <Footer />

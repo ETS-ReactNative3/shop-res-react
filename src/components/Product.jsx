@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import f1 from '../imges/products/f1.jpg'
 import f2 from '../imges/products/f2.jpg'
 import f3 from '../imges/products/f3.jpg'
@@ -13,7 +14,7 @@ const Product = () => {
     <section className="product1">
       <h2>Tanlangan mahsulotlar</h2>
       <p>Yozgi kolleksiya yangi zamonaviy dizayn</p>
-      <div className="pro-container">
+      <Link to='singleproduct' className="pro-container">
         <div className="pro">
           <img src={f1} alt="" />
           <div className="des">
@@ -158,7 +159,7 @@ const Product = () => {
             <i className="fas fa-shopping-cart cart"></i>
           </a>
         </div>
-      </div>
+      </Link>
     </section>
   );
 };

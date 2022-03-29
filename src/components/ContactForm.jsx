@@ -1,4 +1,7 @@
 import React from "react";
+import p1 from '../imges/people/1.png'
+import p2 from '../imges/people/2.png'
+import p3 from '../imges/people/3.png'
 
 const ContactForm = () => {
   return (
@@ -20,7 +23,7 @@ const ContactForm = () => {
       </form>
       <div className="contact-form-deteals">
         <div className="contactimgWrapper">
-          <img src="./imges/people/1.png" alt="" />
+          <img src={p1} alt="" />
           <p>
             <span>John Doe</span>Senior Marketing maneger <br />
             Phone +998977777777 <br />
@@ -28,7 +31,7 @@ const ContactForm = () => {
           </p>
         </div>
         <div className="contactimgWrapper">
-          <img src="./imges/people/2.png" alt="" />
+          <img src={p2} alt="" />
           <p>
             <span>John Doe</span>Senior Marketing maneger <br />
             Phone +998977777777 <br />
@@ -36,7 +39,7 @@ const ContactForm = () => {
           </p>
         </div>
         <div className="contactimgWrapper">
-          <img src="./imges/people/3.png" alt="" />
+          <img src={p3} alt="" />
           <p>
             <span>John Doe</span>Senior Marketing maneger <br />
             Phone +998977777777 <br />

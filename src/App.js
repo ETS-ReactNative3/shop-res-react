@@ -6,8 +6,10 @@ import Home from "./pages/Home.jsx";
 import Shop from "./pages/Shop.jsx";
 import Blog from "./pages/Blog.jsx";
 import About from "./pages/About.jsx";
-import Contact from "./pages/Blog.jsx";
+import Contact from "./pages/Contact.jsx";
 import Cart from "./pages/Cart";
+import SingleProduct from "./pages/SingleProduct.jsx";
+import Carousel from "./components/Carousel";
 
 const App = () => {
   return (
@@ -21,6 +23,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/singleproduct" element={<SingleProduct />} />
+          <Route path="/shop/singleproduct" element={<SingleProduct />} />
+          <Route path="/carousel" element={<Carousel />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -8,6 +8,7 @@ import BannerTree from "../components/BannerTree";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
+import ProProduct from "../components/ProProduct";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Feature />
       <Product />
       <Banner />
+      <ProProduct />
       <Smbanner />
       <BannerTree />
       <Newsletter />

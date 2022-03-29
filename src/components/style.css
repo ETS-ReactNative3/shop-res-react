@@ -82,7 +82,7 @@ button.white {
   z-index: 999;
   display: flex;
   width: 0%;
-  height: 70vh;
+  height: 50vh;
   transition: 0.3s linear;
 }
 .mobileRight {
@@ -208,12 +208,14 @@ button.white {
   text-align: center;
 }
 .product1 .pro-container {
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 .product1 .pro {
+  text-decoration: none;
   position: relative;
   margin: 15px 0;
   width: 23%;
@@ -495,7 +497,7 @@ footer img {
 
 .pagination {
   padding: 40px 80px;
-  text-align: center ;
+  text-align: center;
 }
 
 .pagination a {
@@ -867,7 +869,29 @@ footer img {
   padding: 15px;
   border: 1px solid #d8dce7;
 }
+.WrapperDemoCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.WrapperDemo {
+  width: 50%;
+}
+/* .caruitems{
+  width: 100%;
+} */
 @media screen and (max-width: 900px) {
+  .sm-banner {
+    padding: 40px 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
   .contact {
     display: flex;
     flex-direction: column;
@@ -897,6 +921,9 @@ footer img {
 }
 
 @media only screen and (max-width: 799px) {
+  .WrapperDemo {
+    width: 90%;
+  }
   .pagination {
     padding: 50px;
   }
@@ -1017,6 +1044,9 @@ footer img {
   }
 }
 @media only screen and (max-width: 499px) {
+  .WrapperDemo {
+    width: 100%;
+  }
   h2 {
     font-size: 32px;
     line-height: 44px;

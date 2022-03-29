@@ -1,14 +1,14 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Copyright from "../components/Copyright";
-import AboutHero from "../components/AboutHero";
-import Contactb from "../components/Contactb";
-import ContactForm from "../components/Form";
+import Footer from "../components/Footer.jsx";
+import Copyright from "../components/Copyright.jsx";
+import ContactHero from "../components/ContactHero.jsx";
+import Contactb from "../components/Contactb.jsx";
+import ContactForm from "../components/ContactForm.jsx";
 
 const Contact = () => {
   return (
     <div>
-      <AboutHero />
+      <ContactHero />
       <Contactb />
       <ContactForm />
       <Footer />
