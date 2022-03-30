@@ -10,6 +10,7 @@ import Contact from "./pages/Contact.jsx";
 import Cart from "./pages/Cart";
 import SingleProduct from "./pages/SingleProduct.jsx";
 import Carousel from "./components/Carousel";
+import Maps from "./components/Map/Maps";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/singleproduct" element={<SingleProduct />} />
           <Route path="/shop/singleproduct" element={<SingleProduct />} />
           <Route path="/carousel" element={<Carousel />} />
+          <Route path="/maps" element={<Maps />} />
         </Routes>
       </BrowserRouter>
     </div>
