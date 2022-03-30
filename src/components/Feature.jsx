@@ -10,27 +10,27 @@ const Feature = () => {
   return (
     <section className="feature">
       <div className="fe-box">
-        <img src={f1} alt="" />
+        <img src={f1} alt="rasm" />
         <h6>Yetkazib berish bepul</h6>
       </div>
       <div className="fe-box">
-        <img src={f2} alt="" />
+        <img src={f2} alt="rasm" />
         <h6>Online buyurtma</h6>
       </div>
       <div className="fe-box">
-        <img src={f3} alt="" />
+        <img src={f3} alt="rasm" />
         <h6>Pulni tejash</h6>
       </div>
       <div className="fe-box">
-        <img src={f4} alt="" />
+        <img src={f4} alt="rasm" />
         <h6>Aktsiyalar</h6>
       </div>
       <div className="fe-box">
-        <img src={f5} alt="" />
+        <img src={f5} alt="rasm" />
         <h6>Baxtli savdo</h6>
       </div>
       <div className="fe-box">
-        <img src={f6} alt="" />
+        <img src={f6} alt="rasm" />
         <h6>24/7 qo'llab-quvvatlash</h6>
       </div>
     </section>

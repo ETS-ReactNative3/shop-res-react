@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Shop from "./pages/Shop.jsx";
 import Blog from "./pages/Blog.jsx";
@@ -9,13 +9,11 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Cart from "./pages/Cart";
 import SingleProduct from "./pages/SingleProduct.jsx";
-import Carousel from "./components/Carousel";
-import Maps from "./components/Map/Maps";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
+    <div className="app">
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,10 +24,8 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/singleproduct" element={<SingleProduct />} />
           <Route path="/shop/singleproduct" element={<SingleProduct />} />
-          <Route path="/carousel" element={<Carousel />} />
-          <Route path="/maps" element={<Maps />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 };

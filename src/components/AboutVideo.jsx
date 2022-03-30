@@ -5,7 +5,7 @@ const AboutVideo = () => {
   return (
     <section className="about-video">
       <div className="WrapperVideo">
-        <video loop autoplay controls src={mp4}></video>
+        <video loop controls src={mp4}></video>
       </div>
     </section>
   );

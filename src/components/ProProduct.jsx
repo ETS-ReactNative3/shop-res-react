@@ -11,151 +11,153 @@ import n8 from "../imges/products/n8.jpg";
 
 const ProProduct = () => {
   return (
-    <section class="product1">
+    <section className="product1">
       <h2>Yangi kelgan maxsulotlar</h2>
       <p>Yozgi kolleksiya yangi zamonaviy dizayn</p>
-      <div class="pro-container">
-        <Link to='singleproduct' class="pro">
+      <div className="pro-container">
+        <Link to="singleproduct" className="pro">
           <img src={n1} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
+        <Link to="singleproduct" className="pro">
           <img src={n2} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n3} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n3} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n4} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n4} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          {/* <a href="#"><i class="fas fa-shopping-cart cart"></i></a>  */}
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n5} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n5} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n6} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n6} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n7} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n7} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
-        <Link to='singleproduct' class="pro">
-        <img src={n8} alt="" />
-          <div class="des">
-            <span>adclassas </span>
+        <Link to="singleproduct" className="pro">
+          <img src={n8} alt="" />
+          <div className="des">
+            <span>adclassNameas </span>
             <h5>Kosmonavt futbolkalari</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+            <div className="star">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </div>
             <h4>350 So'm</h4>
           </div>
-          <a href="#">
-            <i class="fas fa-shopping-cart cart"></i>
-          </a>
+          <Link to="/">
+            <i className="fas fa-shopping-cart cart"></i>
+          </Link>
         </Link>
       </div>
     </section>

@@ -36,7 +36,7 @@ const DemoCarousel = () => {
               <img src={img2} alt="rasm" />
             </div>
             <div>
-              <img src={img4} />
+              <img src={img4} alt="rasm" />
             </div>
           </Carousel>
         </div>

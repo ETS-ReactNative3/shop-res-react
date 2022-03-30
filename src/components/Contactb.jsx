@@ -1,5 +1,5 @@
 import React from "react";
-import Maps from "./Map/Maps";
+import Maps from "./Maps";
 
 const Contactb = () => {
   return (
