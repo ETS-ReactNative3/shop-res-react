@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Pagination = () => {
   return (
     <section className="pagination">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">
+      <Link to="/">1</Link>
+      <Link to="/">2</Link>
+      <Link to="/">
         <i className="fal fa-long-arrow-alt-right"></i>
-      </a>
+      </Link>
     </section>
   );
 };

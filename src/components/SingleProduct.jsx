@@ -37,7 +37,7 @@ const SingleProduct = () => {
           <option value="">kichik</option>
         </select>
         <div className="inputBtn">
-          <input type="number" value={1} />
+          <input type="number" defaultValue={1} />
           <button className="normal">kartaga qo'shish</button>
         </div>
         <h3>Maxsulot mal'umotlari</h3>

@@ -13,22 +13,26 @@ const Coupon = () => {
       <div className="coupon-table">
         <h3>Cart Totals</h3>
         <table>
-          <tr>
-            <td>Cart subtotal</td>
-            <td>$ 335</td>
-          </tr>
-          <tr>
-            <td>Shipping</td>
-            <td>Free</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>Total</strong>
-            </td>
-            <td>
-              <strong>$ 335</strong>
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <td>Cart subtotal</td>
+              <td>$ 335</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Total</strong>
+              </td>
+              <td>
+                <strong>$ 335</strong>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </section>

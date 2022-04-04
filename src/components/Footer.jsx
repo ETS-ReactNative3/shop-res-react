@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../imges/logo.png'
 
 const Footer = () => {
   return (
     <footer>
       <div className="col">
-        <img src="imges/logo.png" alt="" className="logo" />
+        <img src={logo} alt="logo" className="logo" />
         <h4>Contact:</h4>
         <p>
           <strong>Manzil:</strong>Lorem ipsum dolor sit amet consectetur
